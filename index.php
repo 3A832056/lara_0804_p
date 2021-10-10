@@ -10,6 +10,7 @@ try {
     echo  "Error: ".$e->getMessage()."＜br/＞";
     die();
 }
+require __DIR__.'/vendor/autoload.php';
 
 ?>
 <!DOCTYPE html>
